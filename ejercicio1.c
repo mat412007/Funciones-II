@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-
 int x = 10;
 void mas_dos(){
     x += 2;
