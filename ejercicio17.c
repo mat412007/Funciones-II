@@ -2,8 +2,11 @@
 #include <stdlib.h>
 
 int fibonacci(int n){
-    if(n == 1) return 1;
-    return fibonacci(n - 1) + n;
+    if (n<2){
+        return n;
+    } else {
+        return fibonacci(n-1) + fibonacci(n-2);
+    }
 }
 
 int main(int argc, char *argv[]){
